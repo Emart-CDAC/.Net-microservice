@@ -14,6 +14,9 @@ namespace AnalyticsEngineApi.Models
         public double Normal_Price { get; set; }
         public int? StoreId { get; set; }
         public int? SubcategoryId { get; set; }
+        
+        [Column("discount_percent")]
+        public double? Discount_Percent { get; set; }
     }
 
 
